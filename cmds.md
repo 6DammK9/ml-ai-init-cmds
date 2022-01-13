@@ -50,5 +50,6 @@ conda install -c conda-forge tensorflow-gpu=2.5.0
 conda install -c conda-forge pandas
 conda install -c conda-forge matplotlib
 conda install -c conda-forge scikit-image
+conda install -c conda-forge scipy
 conda install -c conda-forge networkx
 ```
