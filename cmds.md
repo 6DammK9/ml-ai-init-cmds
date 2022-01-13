@@ -16,7 +16,7 @@
 
 ## Video / IG links ##
 
-- [mujoco-py on WSL2] https://www.youtube.com/watch?v=6LmCVQ0zov8&ab_channel=6DAMMK9
+- [mujoco-py on WSL2](https://www.youtube.com/watch?v=6LmCVQ0zov8&ab_channel=6DAMMK9)
 
 ## Here's the CMDs ##
 

@@ -8,8 +8,8 @@ I am not taking any responsibility! Do not expect me constantly tracking the com
 
 ## File list ##
 
-`cmd.md`: Command lines / notes.
-`mujocopy.md`: **deprecated** Topics on installing and running `mujoco-py` on Windows / WSDL. Current version of mujoco (as in 2201) has been fixed the issue.
+- `cmd.md`: Command lines / notes.
+- `mujocopy.md`: **deprecated** Topics on installing and running `mujoco-py` on Windows / WSDL. Current version of mujoco (as in 2201) has been fixed the issue.
 
 ## For FCND drones (CS5491 asg1) ##
 
