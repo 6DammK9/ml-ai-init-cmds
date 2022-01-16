@@ -11,6 +11,7 @@ I am not taking any responsibility! Do not expect me constantly tracking the com
 - `cmd.md`: Command lines / notes.
 - `mujocopy.md`: **deprecated** Topics on installing and running `mujoco-py` on Windows / WSDL. Current version of mujoco (as in 2201) has been fixed the issue.
 - `fcnd.md`: Special for FCND environment. `cmd.py` applies here.
+- `vscode.md`: Topics on VSCode integration. `cmd.py` applies here.
 
 ## General requirement for ML / AI ##
 
