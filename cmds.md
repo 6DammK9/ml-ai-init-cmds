@@ -11,12 +11,26 @@
 
 ## Primary environment ##
 
-- Notebook: ROG GM501GM, Win 10 20H2, WSL2, 6c12t i7-8750, 32GB DDR4 2666, GTX 1060 mobile, 500GB SATA SSD + 16GB M2 Optane
-- Workstation: X99-F8D, Win 10 20H2, no linux, 24c48t 2678v3 x2, 64GB DDR4 2133 ECC, GTX 1080 Ti, 500GB SATA SSD + 2TB SATA HDD  
+- **Tested** Notebook: ROG GM501GM, Win 10 20H2, WSL2, 6c12t i7-8750, 32GB DDR4 2666, GTX 1060 mobile, 500GB SATA SSD + 16GB M2 Optane
+- **Tested** Workstation: X99-F8D, Win 10 20H2, no linux, 24c48t 2678v3 x2, 64GB DDR4 2133 ECC, GTX 1080 Ti, 500GB SATA SSD + 2TB SATA HDD  
 
 ## Video / IG links ##
 
 - [mujoco-py on WSL2](https://www.youtube.com/watch?v=6LmCVQ0zov8&ab_channel=6DAMMK9)
+
+## Running the CMDs ##
+
+- For installation, recommended to use elevated command prompt. [How to Open the Command Prompt as Administrator in Windows 8 or 10](https://www.howtogeek.com/194041/how-to-open-the-command-prompt-as-administrator-in-windows-8.1/)
+
+- After installation, VSCode > Terminal > Add > Command Prompt. *Do not use PowerShell*. Verify the console output (no `PS C:\`, and in auto):
+
+```txt
+C:\Users\User\Downloads\ml-ai-init-cmds-main>C:/ProgramData/Miniconda3/Scripts/activate
+
+(base) C:\Users\User\Downloads\ml-ai-init-cmds-main>conda activate sklearn-env
+
+(sklearn-env) C:\Users\User\Downloads\ml-ai-init-cmds-main>
+```
 
 ## Here's the CMDs ##
 
@@ -25,15 +39,9 @@
 
 # python=3.10 will lead to almost no avaliable packages!
 conda create -n sklearn-env -c conda-forge scikit-learn python=3.9
-# Activate before calling jupyter
+# Activate the new environment first
 conda env list
 conda activate sklearn-env
-
-# May be fine?
-conda install -c conda-forge jupyterlab
-
-# Start jupyter
-jupyter lab
 
 # Prefer conda-forge with auto version (older version is not preferred)
 
@@ -52,4 +60,10 @@ conda install -c conda-forge matplotlib
 conda install -c conda-forge scikit-image
 conda install -c conda-forge scipy
 conda install -c conda-forge networkx
+
+# Finally the jupyter notebook
+conda install -c conda-forge jupyterlab
+
+# Start jupyter (after installation)
+jupyter lab
 ```
