@@ -32,19 +32,24 @@ conda activate sklearn-env
 # May be fine?
 conda install -c conda-forge jupyterlab
 
+# cs6493 tutorial 4
+conda install -c conda-forge jupyterlab_widgets
+conda install -c conda-forge ipywidgets
+
 # Start jupyter
 jupyter lab
 
 # Prefer conda-forge with auto version (older version is not preferred)
 
 # conda-forge failed on 3.9
-# supressed by torchtext
-conda install -c pytorch pytorch==1.10.0
-conda install -c pytorch torchvision==0.10.0
-conda install -c pytorch torchaudio==0.11.1
+# supressed by torchtext: https://github.com/pytorch/text
+conda install -c pytorch pytorch
+conda install -c pytorch torchvision
+conda install -c pytorch torchaudio
 
-# tutorial 2
-conda install -c pytorch torchtext==0.11.0
+# cs6493 tutorial 2
+conda install -c pytorch torchtext
+conda install -c conda-forge ray-tune
 
 # 2.7.0 will have serious issue (cudnn issue)
 # 2.6.0 has some weird bug (e.g. keras not found)
@@ -56,4 +61,14 @@ conda install -c conda-forge matplotlib
 conda install -c conda-forge scikit-image
 conda install -c conda-forge scipy
 conda install -c conda-forge networkx
+
+# Optional: CS6493 asg1 (Testing only)
+# transformers includes tokenizers
+# conda install -c conda-forge tokenizers
+
+# cs6493 tutorial 3
+conda install -c conda-forge datasets
+
+# cs6493 tutorial 4
+conda install -c conda-forge transformers
 ```
