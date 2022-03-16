@@ -12,7 +12,7 @@
 ## Primary environment ##
 
 - Notebook: ROG GM501GM, Win 10 20H2, WSL2, 6c12t i7-8750, 32GB DDR4 2666, GTX 1060 mobile, 500GB SATA SSD + 16GB M2 Optane
-- Workstation: X99-F8D, Win 10 20H2, no linux, 24c48t 2678v3 x2, 64GB DDR4 2133 ECC, GTX 1080 Ti, 500GB SATA SSD + 2TB SATA HDD  
+- Workstation: X99-F8D, Win 10 20H2, no linux, 24c48t 2678v3 x2, 64GB DDR4 2133 ECC, GTX 1080 Ti *x2*, 500GB SATA SSD + 2TB SATA HDD  
 
 ## Video / IG links ##
 
