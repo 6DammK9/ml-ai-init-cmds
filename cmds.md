@@ -55,6 +55,9 @@ conda install -c conda-forge ray-tune
 # 2.6.0 has some weird bug (e.g. keras not found)
 conda install -c conda-forge tensorflow-gpu=2.5.0
 
+# cs5483 project
+conda install -c esri tensorflow-addons
+
 # Should be fine with almost no risk
 conda install -c conda-forge pandas
 conda install -c conda-forge matplotlib
