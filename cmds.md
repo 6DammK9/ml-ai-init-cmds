@@ -73,5 +73,13 @@ conda install -c conda-forge networkx
 conda install -c conda-forge datasets
 
 # cs6493 tutorial 4
-conda install -c conda-forge transformers
+# Overrided by QG task which requires exact 3.0.0
+# conda install -c conda-forge transformers
+
+# cs6493 tutorial 6
+conda install -c conda-forge spacy==3.0.0
+
+# cs6493 project (QG task)
+conda install -c conda-forge transformers==3.0.2
+conda install -c conda-forge nltk
 ```
