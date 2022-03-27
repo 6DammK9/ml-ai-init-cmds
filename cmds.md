@@ -80,6 +80,8 @@ conda install -c conda-forge datasets
 conda install -c conda-forge spacy==3.0.0
 
 # cs6493 project (QG task)
-conda install -c conda-forge transformers==3.0.2
+# 3.0.2 has incapability with Python 3.9. Hence transformers must be newer then 4.0
+conda install -c conda-forge transformers
 conda install -c conda-forge nltk
+pip install git+https://github.com/Maluuba/nlg-eval.git@master
 ```
