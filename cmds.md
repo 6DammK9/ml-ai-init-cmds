@@ -9,10 +9,10 @@
 - Only use pip for last resort (e.g. `mujoco-py`)
 - Be familiar with **minor** software version difference (should be fine for educational use)
 
-## Primary environment ##
+## Computation environment ##
 
-- Notebook: ROG GM501GM, Win 10 20H2, WSL2, 6c12t i7-8750, 32GB DDR4 2666, GTX 1060 mobile, 500GB SATA SSD + 16GB M2 Optane
-- Workstation: X99-F8D, Win 10 20H2, no linux, 24c48t 2678v3 **x2**, 64GB DDR4 2133 ECC, GTX 1080 Ti **x2**, 500GB SATA SSD + 2TB SATA HDD  
+- Development mode: (Notebook) ROG GM501GM, Win 10 21H2, WSL2, 6c12t i7-8750, 32GB DDR4 2666, GTX 1060 mobile, 500GB SATA SSD + 16GB M2 Optane
+- Production mode: (Workstation) Huananzhi X99-F8D, Win 10 21H2, no linux subsystem, 24c48t 2678v3 x2, 64GB DDR4 2133 ECC, GTX 1080 Ti x2, 500GB SATA SSD + 2TB SATA HDD
 
 ## Video / IG links ##
 
