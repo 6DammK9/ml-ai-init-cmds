@@ -84,4 +84,7 @@ conda install -c conda-forge spacy==3.0.0
 conda install -c conda-forge transformers
 conda install -c conda-forge nltk
 pip install git+https://github.com/Maluuba/nlg-eval.git@master
+
+# Extra (projects out of educational)
+conda install -c conda-forge statsmodels
 ```
