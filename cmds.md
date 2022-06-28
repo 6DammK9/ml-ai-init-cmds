@@ -25,6 +25,8 @@
 
 # python=3.10 will lead to almost no avaliable packages!
 conda create -n sklearn-env -c conda-forge scikit-learn python=3.9
+# As in 220628, no need to open cmd manually
+conda init powershell
 # Activate before calling jupyter
 conda env list
 conda activate sklearn-env
